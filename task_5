@@ -1,9 +1,12 @@
 N = int(input())
-k = 0
-l = 0
 A = []
-Even = []
-Odd = []
+Even = 0
+Odd = 1
 for i in range(0, N):
     A.append(int(input()))
-for i in range()
+for i in range(0, N):
+    if A[i] % 2 != 0:
+        print(A[i])
+for i in range(0, N):
+    if A[-i] % 2 == 0:
+        print(A[-i])
