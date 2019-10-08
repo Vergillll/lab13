@@ -1,0 +1,6 @@
+N = int(input())
+A = []
+for i in range(0, N):
+    A.append(int(input()))
+for i in range(0, N):
+    print(A[i], A[N-i-1])
