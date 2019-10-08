@@ -1,0 +1,9 @@
+N = int(input())
+k = 0
+l = 0
+A = []
+Even = []
+Odd = []
+for i in range(0, N):
+    A.append(int(input()))
+for i in range()
